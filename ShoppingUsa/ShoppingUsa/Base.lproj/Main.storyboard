@@ -39,9 +39,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entre com seus gastos no EUA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcF-Ax-YvI">
-                                <rect key="frame" x="46" y="87" width="259" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entre com seus gastos no EUA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcF-Ax-YvI">
+                                <rect key="frame" x="46" y="106" width="210" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -64,8 +63,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="CdP-gg-OkT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="591-wD-cD8"/>
+                            <constraint firstItem="kcF-Ax-YvI" firstAttribute="leading" secondItem="CdP-gg-OkT" secondAttribute="leading" id="AfF-Gm-gCK"/>
                             <constraint firstItem="zlW-6U-my6" firstAttribute="trailing" secondItem="8aG-43-Bja" secondAttribute="trailing" id="DF2-dm-NPV"/>
                             <constraint firstItem="8aG-43-Bja" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sjp-od-zG1"/>
+                            <constraint firstItem="CdP-gg-OkT" firstAttribute="top" secondItem="kcF-Ax-YvI" secondAttribute="bottom" constant="4" id="Z5v-er-3wk"/>
                             <constraint firstItem="okC-al-dMi" firstAttribute="top" secondItem="8aG-43-Bja" secondAttribute="bottom" constant="15" id="azy-Wf-y7V"/>
                             <constraint firstItem="zlW-6U-my6" firstAttribute="centerY" secondItem="8aG-43-Bja" secondAttribute="centerY" id="bVT-NM-OVK"/>
                             <constraint firstItem="8aG-43-Bja" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dmb-qb-dHR"/>
