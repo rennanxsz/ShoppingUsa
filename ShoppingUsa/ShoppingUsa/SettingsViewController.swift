@@ -29,6 +29,13 @@ class SettingsViewController: UIViewController {
     
     func setValues() {
         tc.dolar = tc.convertToDouble(tfDolar.text!)
+        tc.iof = tc.convertToDouble(tfIOF.text!)
+        tc.stateTax = tc.convertToDouble(tfStateTaxes.text!)
     }
+}
 
+extension SettingsViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        setValues()
+    }
 }
